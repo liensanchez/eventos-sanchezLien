@@ -4,6 +4,7 @@ import ItemListContainer from '../components/ItemListContainer/ItemListContainer
 import productos from '../components/Item/Item';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ItemDetailContainer from '../components/ItemDetailContainer/ItemDetailContainer';
+import CartWidget from '../components/Carrito/CartWidget';
 
 
 function RoutesApp() {
@@ -37,6 +38,18 @@ function RoutesApp() {
                  element={
 
                     <ItemDetailContainer/>
+
+                 }
+
+          />
+
+          <Route
+
+                 path='/carrito'
+
+                 element={
+
+                    <CartWidget/>
 
                  }
 

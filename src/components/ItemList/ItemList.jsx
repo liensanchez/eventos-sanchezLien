@@ -24,13 +24,13 @@ function ItemList() {
 
                                             <div className="card-body d-flex justify-content-center ">
 
-                                              <img src={producto.img} alt="" className='h-50 w-50' />
+                                              <img src={producto.img} alt="" />
 
                                             </div>
 
                                             <div className='d-flex justify-content-center'>
 
-                                            <button className='btn-primay bg-secondary'><Link to='/detalle'> Detalle </Link></button>
+                                              <button className='btn-primay bg-secondary'><Link to='/detalle'> Detalle </Link></button>
                                             
                                             </div>
 
